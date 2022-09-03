@@ -15,6 +15,7 @@ const mongoSanitize = require("express-mongo-sanitize");
 const xss = require("xss-clean");
 const hpp = require("hpp");
 
+// Start express app
 const app = express();
 
 // setting up pug
